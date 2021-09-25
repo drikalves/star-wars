@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(45deg, #49a09d, #5f2c82);
+  color: #333;
+  --type-first: Helvetica, Arial, sans-serif;
+  font-family: var(--type-first);
+  margin: 0px;
+}
+
+h1,
+h2,
+p {
+  margin: 0px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 50rem;
+  padding: 0 1rem;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.AppBody {
+  flex: 1;
+}

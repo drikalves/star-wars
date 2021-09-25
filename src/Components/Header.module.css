@@ -1,0 +1,15 @@
+.header {
+  box-shadow: 0 2px 4px rgb(30, 60, 90, 0.1);
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.nav {
+  align-items: center;
+  display: flex;
+}
+
+.logo {
+  padding: 0.5rem 0;
+}
