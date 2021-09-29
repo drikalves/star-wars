@@ -15,19 +15,3 @@ h2,
 p {
   margin: 0px;
 }
-
-.container {
-  margin: 0 auto;
-  max-width: 50rem;
-  padding: 0 1rem;
-}
-
-.App {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-.AppBody {
-  flex: 1;
-}
